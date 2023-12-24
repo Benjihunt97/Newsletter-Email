@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e1428b0a9e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="app">
+        <div class="hero-img">
+            <img src="" alt="">
+        </div>
+        <div class="form">
+            <h1 class="title">Stay Updated!</h1>
+            <p class="info">Join 60,000+ project managers receiving monthly update on.</p>
+
+            <ul class="update-list">
+                <li>
+                    <span class="list-icon">
+                        <i class="fa fa-check"></i>
+                    </span>
+                    Product discovery and building what matters
+                </li>
+                <li>
+                    <span class="list-icon">
+                        <i class="fa fa-check"></i>
+                    </span>
+                    Measuring to ensure updates are a success
+                </li>
+                <li>
+                    <span class="list-icon">
+                        <i class="fa fa-check"></i>
+                    </span>
+                    And much more!
+                </li>
+            </ul>
+
+            <label for="email">
+                <p class="form-title">
+                    Email address
+                    <span class="error">Valid email required</span>
+                </p>
+                <input type="email" id="email" placeholder="example@company.com">
+                <button class="btn" id="submit-form">Subscribe to monthly newsletter</button>
+            </label>
+        </div>
+    </div>
+
+    <div class="msg">
+        <i class="fa fa-check msg-check"></i>
+        <h1 class="title">Thanks for subscribing</h1>
+
+        <p class="info">
+            A confirmation email has been sent to <span class="user-email"></span>. Please open it and click the button inside to confirm your
+            subscription.
+        </p>
+
+        <button class="btn" id="dismiss-msg">Dismiss Message</button>
+    </div>
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
