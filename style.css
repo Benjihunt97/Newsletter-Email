@@ -161,7 +161,7 @@ input[type="email"] {
 } 
 
 /* screen size for tablets */
-@media (min-width: 789px) and (max-width: 1024px) {
+@media (min-width: 789px) {
     .app {
         flex-direction: row-reverse;
         justify-content: space-between;
