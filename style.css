@@ -13,9 +13,7 @@
 }
 
 body {
-    display: grid;
-    place-items: center;
-    min-height: 100svh;
+    
     background: #232742;
 }
 
@@ -162,6 +160,11 @@ input[type="email"] {
 
 /* screen size for tablets */
 @media (min-width: 789px) {
+    body {
+        display: grid;
+        place-items: center;
+        min-height: 100svh;
+    }
     .app {
         flex-direction: row-reverse;
         justify-content: space-between;
